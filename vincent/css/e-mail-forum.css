@@ -1,0 +1,9 @@
+.join-section {
+  display: flex;
+}
+
+.join-us-left-container > h2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 0;
+}
