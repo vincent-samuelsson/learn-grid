@@ -1,0 +1,15 @@
+.section-far-away {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14rem;
+  padding: 0 6rem 0 0;
+}
+
+.section-h2-far-away {
+  color: white;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: xxx-large;
+  font-style: normal;
+}
