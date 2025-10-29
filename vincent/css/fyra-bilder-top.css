@@ -1,3 +1,12 @@
-.section-planet {
-  background-color: red;
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-helmet {
+  background-color: var(--light-purple);
+}
+
+.section-pistol {
+  background-color: var(--lightest-purple);
 }
