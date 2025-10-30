@@ -1,9 +1,29 @@
-.join-section {
-  display: flex;
-}
-
-.join-us-left-container > h2 {
+.forum {
   display: flex;
   flex-direction: column;
-  padding: 10rem 0;
+  align-items: center;
+  background-color: var(--bg-dark-dark-purple);
+  color: black;
+}
+
+.forum > p {
+  width: 50rem;
+  padding: 2rem 15rem 2rem 15rem;
+}
+
+.forum > label {
+  color: white;
+}
+
+.forum > h2 {
+  color: white;
+}
+
+.forum > p {
+  color: white;
+  font-family: monospace;
+  font-weight: 50;
+  font-size: smaller;
+  opacity: 90%;
+  font-style: normal;
 }
