@@ -8,7 +8,7 @@
 
 .forum > p {
   width: 50rem;
-  padding: 2rem 15rem 2rem 15rem;
+  padding: 0.5rem 15rem 2rem 15rem;
 }
 
 .forum > label {
@@ -16,6 +16,7 @@
 }
 
 .forum > h2 {
+  padding: 1.5rem 11rem 0rem 0rem;
   color: white;
 }
 
@@ -26,4 +27,34 @@
   font-size: smaller;
   opacity: 90%;
   font-style: normal;
+}
+
+.email {
+  height: 2rem;
+  width: 20rem;
+  padding: 1rem 0 1rem 1rem;
+  font-family: monospace;
+  font-size: smaller;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.ditt-meddelande {
+  padding: 1rem 0 1rem 1rem;
+  height: 12rem;
+  width: 20rem;
+  background-color: white;
+  font-family: monospace;
+  font-size: smaller;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.inp-submit {
+  height: 2.5rem;
+  width: 7rem;
+  border-radius: 2px;
+  background-color: var(--purple);
+  margin-bottom: 1.5rem;
+  box-shadow: none;
 }
