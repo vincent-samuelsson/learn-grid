@@ -16,3 +16,13 @@
   font-weight: 600;
   font-style: normal;
 }
+
+/* footer wrapper start */
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2;
+  background-color: var(--purple);
+  padding: 6rem 12rem 12rem 16rem;
+  gap: 20px;
+}
